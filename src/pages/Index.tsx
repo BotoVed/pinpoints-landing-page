@@ -98,7 +98,7 @@ const Index = () => {
                 </div>
                 <div>
                   <h3 className="font-orbitron text-xl font-bold text-[#814B29] mb-2">ИИ нового поколения</h3>
-                  <p className="text-[#74492D]">На первый взгляд мы не отличаемся от площадок с отзывами, но это не так!</p>
+                  <p className="text-[#74492D]">Наше основное отличие от похожих площадок — инновационность и простота</p>
                 </div>
               </div>
               <div className="flex gap-4">
