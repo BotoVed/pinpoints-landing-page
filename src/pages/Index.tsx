@@ -30,21 +30,13 @@ const Index = () => {
         </div>
       </header>
 
-      <section className="relative pt-32 pb-20 px-4 min-h-[90vh] flex items-center bg-[#1A1A1A]">
-        <div className="absolute inset-0 z-0">
-          <img 
-            src="https://cdn.poehali.dev/files/01084452-b2c5-4f69-9ca0-c4c132e5dd1a.png" 
-            alt="PinPoints Background" 
-            className="w-full h-full object-cover opacity-60"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-white"></div>
-        </div>
-        <div className="container mx-auto max-w-6xl relative z-10">
+      <section className="pt-32 pb-20 px-4">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 animate-fade-in">
-            <h1 className="font-orbitron text-5xl md:text-7xl font-bold mb-6 text-white leading-tight drop-shadow-2xl">
+            <h1 className="font-orbitron text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-[#E59534] via-[#A86130] to-[#814B29] bg-clip-text text-transparent leading-tight">
               Ваш личный эксперт в путешествиях
             </h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
+            <p className="text-xl md:text-2xl text-[#74492D] mb-8 max-w-3xl mx-auto leading-relaxed">
               Забудьте о чтении сотен отзывов. Познакомьтесь с вашим личным помощником на базе ИИ
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
