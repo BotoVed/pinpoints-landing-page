@@ -4,22 +4,22 @@ import Icon from "@/components/ui/icon";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white via-orange-50/20 to-white">
-      <header className="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b border-[#E59534]/20 z-50">
+    <div className="min-h-screen bg-gradient-to-b from-white via-orange-50/20 to-white geometric-pattern">
+      <header className="fixed top-0 w-full bg-[#1A1A1A]/95 backdrop-blur-md border-b border-[#E59534]/30 z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-gradient-to-br from-[#E59534] to-[#A86130] rounded-lg flex items-center justify-center">
               <Icon name="MapPin" className="text-white" size={24} />
             </div>
-            <span className="font-orbitron text-2xl font-bold bg-gradient-to-r from-[#E59534] to-[#A86130] bg-clip-text text-transparent">
+            <span className="font-orbitron text-2xl font-bold text-white">
               PINPOINTS
             </span>
           </div>
           <nav className="hidden md:flex gap-8 text-sm font-medium">
-            <a href="#about" className="text-[#74492D] hover:text-[#E59534] transition-colors">О продукте</a>
-            <a href="#features" className="text-[#74492D] hover:text-[#E59534] transition-colors">Возможности</a>
-            <a href="#how" className="text-[#74492D] hover:text-[#E59534] transition-colors">Как работает</a>
-            <a href="#reviews" className="text-[#74492D] hover:text-[#E59534] transition-colors">Отзывы</a>
+            <a href="#about" className="text-white/80 hover:text-[#E59534] transition-colors">О продукте</a>
+            <a href="#features" className="text-white/80 hover:text-[#E59534] transition-colors">Возможности</a>
+            <a href="#how" className="text-white/80 hover:text-[#E59534] transition-colors">Как работает</a>
+            <a href="#reviews" className="text-white/80 hover:text-[#E59534] transition-colors">Отзывы</a>
           </nav>
           <Button 
             className="bg-gradient-to-r from-[#E59534] to-[#CC903A] text-white font-medium hover:from-[#CC903A] hover:to-[#A86130] shadow-lg"
@@ -30,13 +30,21 @@ const Index = () => {
         </div>
       </header>
 
-      <section className="pt-32 pb-20 px-4">
-        <div className="container mx-auto max-w-6xl">
+      <section className="relative pt-32 pb-20 px-4 min-h-[90vh] flex items-center bg-[#1A1A1A]">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://cdn.poehali.dev/files/de7baeda-1c9d-4a33-9c3f-e70874233fe5.png" 
+            alt="PinPoints Background" 
+            className="w-full h-full object-cover opacity-70"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-white"></div>
+        </div>
+        <div className="container mx-auto max-w-6xl relative z-10">
           <div className="text-center mb-12 animate-fade-in">
-            <h1 className="font-orbitron text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-[#E59534] via-[#A86130] to-[#814B29] bg-clip-text text-transparent leading-tight">
+            <h1 className="font-orbitron text-5xl md:text-7xl font-bold mb-6 text-white leading-tight drop-shadow-2xl">
               Ваш личный эксперт в путешествиях
             </h1>
-            <p className="text-xl md:text-2xl text-[#74492D] mb-8 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-white/95 mb-8 max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
               Забудьте о чтении сотен отзывов. Познакомьтесь с вашим личным помощником на базе ИИ
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
