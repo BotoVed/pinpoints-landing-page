@@ -335,7 +335,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-gradient-to-r from-[#E59534] via-[#CC903A] to-[#A86130]">
+      <section className="py-20 px-4 bg-gradient-to-br from-[#E59534] via-[#A86130] to-[#1A1A1A]">
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="font-orbitron text-4xl md:text-5xl font-bold text-white mb-6">
             Готовы поговорить с коллективным разумом?
