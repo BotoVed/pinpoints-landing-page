@@ -359,7 +359,7 @@ const Index = () => {
         </div>
       </section>
 
-      <footer className="bg-[#1A1A1A] text-white py-12 px-4">
+      <footer className="bg-gradient-to-b from-[#2A2520] to-[#1A1A1A] text-white py-12 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
