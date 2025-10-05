@@ -4,7 +4,7 @@ import Icon from "@/components/ui/icon";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white via-orange-50/20 to-white geometric-pattern">
+    <div className="min-h-screen bg-gradient-to-b from-white via-orange-50/20 to-white">
       <header className="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b border-[#E59534]/20 z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
